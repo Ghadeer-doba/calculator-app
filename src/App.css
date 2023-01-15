@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Markazi+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Markazi+Text:wght@400;600;700&family=Tajawal:wght@300;400;500&display=swap');
 :root{
   --light:#d9eff7;
   --dark:#4741a6;
@@ -6,11 +6,13 @@
   --secandary:#9bbbfc;
   --lighter:#eee;
   --darkness:#131a26;
+
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
 
   /* used to an element to make it non-selectable */
   -webkit-user-select: none; 
@@ -21,7 +23,6 @@
 }
 body{
   background-color: var(--light);
-  font-family: 'fire sans', sans-serif; 
 
 }
 .App{
@@ -33,12 +34,12 @@ body{
 
 }
 .heading{
-  background: -webkit-linear-gradient(var(--primary), var(--dark));
+  background: -webkit-linear-gradient(var(--dark), var(--darkness));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 50px;
   /* text-shadow: 1px 2px 2px rgba(0,0,0,0.6); */
-  font-family: 'Kalam', cursive;
+  /* font-family: 'Kalam', cursive; */
 
 }
 .cal{
